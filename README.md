@@ -17,4 +17,8 @@
 
 ### API 1 (Search Movie)
 
-- 
+- Collected data from MongoDB database and made a javascript for checking the Longest Common Subsequence(LCS). And completed the Autocomplete function which was asked in the Question. The rendering was done using flask.
+
+### API 2 (Search Movie by)
+
+- Impleted the api as per the sepcified norm as mentioned in the questions. Pass the Movie ID int the input field and it will return the detail of the movie with releted Id.
