@@ -38,7 +38,7 @@ for i in tnrange(1,11):
 
         ids.append(((movie.find("a"))['href']).split('/')[2])
 
-        genre.append(((movie.find('span','genre')).text).split())
+        genre.append(("".join(((movie.find('span','genre')).text).split())).split(","))
 
         runtime.append(int(((movie.find('span','runtime')).text).split()[0]))
 
